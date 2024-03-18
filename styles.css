@@ -78,7 +78,7 @@ nav a:hover {
     font-family: "Azeret Mono", sans-serif;
 }
 
-/*
-    -add apprpriate styles to the projects section
-    -add fonts to our page (link)
-*/
+.footer {
+    background-color: #04e24e;
+    font-family: "Inconsolata", sans-serif;
+}
