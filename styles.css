@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&display=swap');
+
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;         /* Includes the border and padding when calculating width on page*/
+    /* fonts, colours etc.*/
+}
+
+header {
+    background-color: #04e24e;
+    color: #ffffff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    /* margin: 0;
+    padding: 0; */
+    background-color: #04e24e;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #000000;
+}
+
+
+/* Cntrl + / to highlight scetion */
+
+.about:active {
+    color: aqua;
+}
+
+.highlight {
+    color: #ff2244;
+}
+
+.skills:hover {
+    color: #000000;
+}
+
+#projects {
+    background-color: #c423c3;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.project {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.description {
+    font-family: "Inconsolata", sans-serif;
+    text-wrap: wrap;
+}
+
+.project-name {
+    font-family: "Azeret Mono", sans-serif;
+}
+
+/*
+    -add apprpriate styles to the projects section
+    -add fonts to our page (link)
+*/
